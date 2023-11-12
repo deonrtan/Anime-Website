@@ -2,10 +2,22 @@ body {
   margin: 0;
   padding: 0;
   background-image: url();
+  text-decoration: none !important;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .font-white {
   color: white;
+}
+
+.text-bold {
+  font-weight: 500;
+  color: black;
 }
 
 /* Custom styles for the carousel container */
@@ -63,7 +75,6 @@ body {
   font-family: Georgia, serif;
 }
 
-
 /* Media query for screens smaller than 768px (typical mobile screens) */
 @media (max-width: 768px) {
   .index-main-menu {
@@ -84,6 +95,55 @@ body {
 ===================================
 */
 
-.padding-left {
-  padding-left: 30px;
+/* ================================   
+=== Container-contents
+===================================
+*/
+
+.container-item {
+  padding-top: 10px;
+  background-color: rgb(106, 110, 110);
+  border: 2px solid #fff;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container-item ul {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.container-item ul li a p:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 18px;
+  color: #222222;
+  letter-spacing: 0;
+  margin-bottom: 3px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #1d1c1c;
+  letter-spacing: 0;
+  margin-top: 1px;
+}
+
+.container-item ul li img {
+  height: 250px;
+  width: 230px;
+  object-fit: cover;
+}
+
+.star-ratings {
+  display: inline;
+  margin-bottom: 10px;
+  padding: 0;
+  font-weight: bold;
 }
