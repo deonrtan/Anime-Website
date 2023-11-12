@@ -8,7 +8,6 @@ body {
   color: white;
 }
 
-
 /* Custom styles for the carousel container */
 #carouselExampleInterval .carousel-inner {
   max-height: 800px; /* Set a fixed height for the container */
@@ -19,4 +18,72 @@ body {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+/* ================================   
+=== CAROUSEL
+===================================
+*/
+.c-item {
+  height: 300px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+/* ================================   
+=== END OF CAROUSEL
+===================================
+*/
+
+/* ================================   
+=== Main Menu
+===================================
+*/
+
+.index-main-menu {
+  background: #a49999;
+  border-radius: 6px;
+  height: 60px;
+  padding: 0 25px;
+  margin-top: -20px;
+  position: relative;
+  z-index: 1;
+}
+
+.index-main-menu a {
+  line-height: 60px;
+  margin: 0 15px;
+  font-size: 17px;
+  color: #0c0b0c;
+  letter-spacing: 0;
+  font-family: Georgia, serif;
+}
+
+
+/* Media query for screens smaller than 768px (typical mobile screens) */
+@media (max-width: 768px) {
+  .index-main-menu {
+    height: auto; /* Auto height to accommodate varying content */
+    padding: 10px 15px; /* Adjusted padding for smaller screens */
+    margin-top: 0;
+  }
+
+  .index-main-menu a {
+    line-height: normal;
+    margin: 5px 10px;
+    font-size: 18px;
+  }
+}
+
+/* ================================   
+=== END
+===================================
+*/
+
+.padding-left {
+  padding-left: 30px;
 }
