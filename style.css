@@ -101,9 +101,8 @@ li {
 */
 
 .container-item {
-  padding-top: 10px;
-  background-color: rgb(106, 110, 110);
-  border: 2px solid #fff;
+  padding-top: 30px;
+  background-color: rgb(156, 151, 151);
   color: #ffffff;
   text-align: center;
 }
@@ -161,7 +160,7 @@ li {
   font-size: 18px;
   font-weight: bold;
   margin: 0;
-  padding-top: 15px;
+  padding-top: 0px;
 }
 
 .more {
